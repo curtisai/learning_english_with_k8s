@@ -10,7 +10,7 @@ When a container is started, the container runtime, such as Docker, will create 
 `Mount (mnt)`
 `Process ID (pid)`
 `Network (net)`
-`Interprocess Communication (ipc)  
-UTS (hostnames)  
-User ID (user)  
-Control group (cgroup)`
+`Interprocess Communication (ipc)`
+`UTS (hostnames)`
+`User ID (user)`
+`Control group (cgroup)`
