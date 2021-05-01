@@ -7,4 +7,5 @@ title: Reading List
 ## https://www.baeldung.com/linux/run-multi-line-shell-code
 ## https://www.davidpashley.com/articles/writing-robust-shell-scripts
 ## https://en.wikipedia.org/wiki/Category:Unix_signals
+## https://en.wikipedia.org/wiki/Cgroups
 ##
