@@ -6,5 +6,5 @@ title: Commands I typed
 ### Seem like the process id listed by this command is also the process id you can find by `ps aux | grep entry_point`. Also, use `pgrep entry_point` can also get you the pid.
 ## Command `pstree` can be used to list process list.
 ### eg. `pstree -c -p -A $(pgrep dockerd)`
-## xx
+## Process Directory
 ##
