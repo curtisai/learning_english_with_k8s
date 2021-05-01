@@ -23,8 +23,4 @@ title: Linux
        8      System Administration tools and Deamons
 ## Process Directory
 ### The configuration for each process is defined within the `/proc` directory. If you know the process ID, then you can identify the configuration directory.
-#### eg. ```ls /proc/1087
-attr       clear_refs       cpuset   fd       limits     mem         net        oom_score      projid_map  sessionid  stat     task
-autogroup  cmdline          cwd      fdinfo   loginuid   mountinfo   ns         oom_score_adj  root        setgroups  statm    timers
-auxv       comm             environ  gid_map  map_files  mounts      numa_maps  pagemap        sched       smaps      status   uid_map
-cgroup     coredump_filter  exe      io       maps       mountstats  oom_adj    personality    schedstat   stack      syscall  wchan`
+#### eg. `ls /proc/`
