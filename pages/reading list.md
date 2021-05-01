@@ -8,4 +8,5 @@ title: Reading List
 ## https://www.davidpashley.com/articles/writing-robust-shell-scripts
 ## https://en.wikipedia.org/wiki/Category:Unix_signals
 ## https://en.wikipedia.org/wiki/Cgroups
+## https://en.wikipedia.org/wiki/Systemd
 ##
