@@ -1,5 +1,5 @@
 ## The Contents
 ### Grouped
-### Grouping
+### [[Grouping]]
 #### [[May 2nd, 2021]]
 ### Reading List
