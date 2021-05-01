@@ -9,4 +9,5 @@ title: Reading List
 ## https://en.wikipedia.org/wiki/Category:Unix_signals
 ## https://en.wikipedia.org/wiki/Cgroups
 ## https://en.wikipedia.org/wiki/Systemd
+## https://en.wikipedia.org/wiki/Fallacies_of_distributed_computing
 ##
