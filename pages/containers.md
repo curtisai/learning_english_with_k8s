@@ -15,4 +15,4 @@ When a container is started, the container runtime, such as Docker, will create 
 `User ID (user)`
 `Control group (cgroup)`
 ### Without using a runtime such as Docker, a process can still operate within it's own namespace
-####
+#### eg. `sudo unshare --fork --pid --mount-proc bash`
