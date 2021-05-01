@@ -22,4 +22,5 @@ title: Linux
 
        8      System Administration tools and Deamons
 ## Process Directory
-###
+### The configuration for each process is defined within the `/proc` directory. If you know the process ID, then you can identify the configuration directory.
+#### eg.
