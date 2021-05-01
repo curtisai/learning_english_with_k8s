@@ -11,4 +11,5 @@ title: Reading List
 ## https://en.wikipedia.org/wiki/Systemd
 ## https://en.wikipedia.org/wiki/Fallacies_of_distributed_computing
 ## https://www.booleanworld.com/depth-guide-iptables-linux-firewall/#How_does_iptables_work
+## https://unix.stackexchange.com/questions/3586/what-do-the-numbers-in-a-man-page-mean
 ##
