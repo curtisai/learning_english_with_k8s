@@ -5,7 +5,7 @@ title: Containers
 ## Namespaces
 ### One of the fundamental parts of a container is namespaces. The concept of namespaces is to limit what processes can see and access certain parts of the system, such as other network interfaces or processes.
 When a container is started, the container runtime, such as Docker, will create new namespaces to sandbox the process. By running a process in its own Pid namespace, it will look like it's the only process on the system.
-### As said above, namespaces are the keys. Docker is not necessary if you can find a different way to manage the namespaces. Here is an example: https://github.com/p8952/bocker
+### As said above, namespaces are the keys. Docker is not necessary if you can find a different way to manage the namespaces. Here is an example that use shell scripts: https://github.com/p8952/bocker
 ### The available namespaces are:
 `Mount (mnt)`
 `Process ID (pid)`
