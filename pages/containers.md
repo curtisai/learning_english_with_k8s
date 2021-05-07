@@ -44,4 +44,5 @@ Chroot provides the ability for a process to start with a different root directo
 ### To view the current AppArmor profiles assigned to a process:
 #### `cat /proc/<pid>/attr/current`
 #### The default AppArmor profile for Docker is `docker-default (enforce)`
-####
+### Default seccomp config for docker can be found at [here](https://github.com/moby/moby/blob/a575b0b1384b2ba89b79cbd7e770fbeb616758b3/profiles/seccomp/default.json)
+###

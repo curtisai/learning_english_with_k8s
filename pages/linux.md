@@ -24,3 +24,4 @@ title: Linux
 ## Process Directory
 ### The configuration for each process is defined within the `/proc` directory. If you know the process ID, then you can identify the configuration directory.
 #### eg. `ls /proc/`
+## [Sandbox](https://security.stackexchange.com/questions/168452/how-is-sandboxing-implemented)
