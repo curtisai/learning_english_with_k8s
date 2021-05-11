@@ -13,3 +13,5 @@ title: Reading List
 ## https://www.booleanworld.com/depth-guide-iptables-linux-firewall/#How_does_iptables_work
 ## https://unix.stackexchange.com/questions/3586/what-do-the-numbers-in-a-man-page-mean
 ## https://en.wikipedia.org/wiki/Linux_namespaces
+## https://opensource.com/article/18/8/sysadmins-guide-containers
+## https://www.redhat.com/en/blog/containers-are-linux
