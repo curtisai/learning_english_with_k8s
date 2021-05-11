@@ -3,7 +3,7 @@ title: Containers
 ---
 
 ## The term "**containers**" is heavily overused. Also, depending on the context, it can mean different things to different people.
-## Traditional Linux containers are really just ordinary processes on a Linux system. These groups of processes are isolated from
+## Traditional Linux containers are really just ordinary processes on a Linux system. These groups of processes are isolated from other groups of processes using resource
 ## **Namespaces**
 ### One of the fundamental parts of a container is namespaces. The concept of namespaces is to limit what processes can see and access certain parts of the system, such as other network interfaces or processes.
 When a container is started, the container runtime, such as Docker, will create new namespaces to sandbox the process. By running a process in its own Pid namespace, it will look like it's the only process on the system.
