@@ -4,7 +4,9 @@ title: Containers
 
 ## The term "**containers**" is heavily overused. Also, depending on the context, it can mean different things to different people.
 ## Traditional Linux containers are really just ordinary processes on a Linux system. These groups of processes are isolated from other groups of processes using resource constraints (control groups [cgroups], for example). Linux security constrains (permissions, capabilities, SELinux, AppArmor, seccomp, etc.), and namespaces (PID, network, mount, etc)
-## If you take a look at any process with `cat /proc/<PID>/cgroup`, that process is in a cgroup. If you
+## If you look at any process with `cat /proc/<PID>/cgroup`, that process is in a `cgroup`.
+## If you look at `/proc/<PID>/status`, you see `capabilities`.
+## If you
 ##
 ## **Namespaces**
 ### One of the fundamental parts of a container is namespaces. The concept of namespaces is to limit what processes can see and access certain parts of the system, such as other network interfaces or processes.
