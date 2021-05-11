@@ -8,6 +8,7 @@ title: Containers
 ## If you look at `/proc/<PID>/status`, you see `capabilities`.
 ## If you look at `/proc/self/attr/current`, you see the `SELinux` labels.
 ## If you look at `/proc/<PID>/ns`, you see the list of namespaces the process is in.
+## If you define a container as a process with resource constraints, Linux security constraints, and namespaces, by d
 ##
 ## **Namespaces**
 ### One of the fundamental parts of a container is namespaces. The concept of namespaces is to limit what processes can see and access certain parts of the system, such as other network interfaces or processes.
