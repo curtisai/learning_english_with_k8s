@@ -13,6 +13,7 @@ title: Containers
 ### **rootfs(container root filesystem)**: A directory on the system that looks like the standard root(/) of the operating system.
 ### **JSON file(container configuration)**: Specifies how to run the rootfs; for example, what **command** or **entrypoint** to set for the container; the container's **working directory** and a few other things.
 ### *Docker* tar's up the **rootfs** and the JSON file to create the base image. This enables you to install additional content on the rootfs, create a new JSON file, and tar the different between the original image and the new image with the updated JSON file. This creates a **Layered Image**
+###
 ##
 ## **Namespaces**
 ### One of the fundamental parts of a container is namespaces. The concept of namespaces is to limit what processes can see and access certain parts of the system, such as other network interfaces or processes.
