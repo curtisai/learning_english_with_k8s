@@ -9,8 +9,9 @@ title: Containers
 ## If you look at `/proc/self/attr/current`, you see the `SELinux` labels.
 ## If you look at `/proc/<PID>/ns`, you see the list of namespaces the process is in.
 ## If you define a container as a process with resource constraints, Linux security constraints, and namespaces, by definition every process on a Linux system is in a container.
-## The concept **container image** that introduced by __Docker__ is a stanndard TAR file that combines:
-### **rootfs(container root filesystem)**: A directory on the system that looks like the standard
+## The concept **container image** that introduced by *Docker* is a standard TAR file that combines:
+### **rootfs(container root filesystem)**: A directory on the system that looks like the standard root(/) of the operating system.
+### **JSON file(container configuration)**: Specifies how to run the rootfs; for exapmle, what **command** or **entrypoint** to set for the container; the container's ****
 ##
 ## **Namespaces**
 ### One of the fundamental parts of a container is namespaces. The concept of namespaces is to limit what processes can see and access certain parts of the system, such as other network interfaces or processes.
