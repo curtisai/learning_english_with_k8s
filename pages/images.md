@@ -17,5 +17,6 @@ title: Images
 ### **JSON file(container configuration)**: Specifies how to run the rootfs; for example, what **command** or **entrypoint** to set for the container; the container's **working directory** and a few other things.
 ### *Docker* tar's up the **rootfs** and the JSON file to create the base image. This enables you to install additional content on the rootfs, create a new JSON file, and tar the different between the original image and the new image with the updated JSON file. This creates a **Layered Image**
 ## The definition of a container image was eventually standardized by the **Open Container Initiative (OCI)** standards body as the **OCI Image Specification**
-## Docker took these container images(**tarballs**) and moved them to a web service from  which they could be pulled, developed a protocol to pull them, and called the web service a **container registry**.
+## Docker took these container images(**tarballs**) and moved them to a web service from which they could be pulled, developed a protocol to pull them, and called the web service a **container registry**.
+## **Container engines** are programs that can pull container images from container registries and reassemble them onto **container storage**. Container engines also launch **container runtimes**
 ##
