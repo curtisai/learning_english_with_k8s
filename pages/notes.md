@@ -23,4 +23,10 @@ title: Notes
 ##### doesn't need syslogd, cron ...
 #### It's just a normal processes on the host machine
 ##### contrast with VMs witch are opaque
-###
+### How are they implemented?
+#### Go to LXR
+#### Looking for "LXC"  --> zero result
+#### Looking for "containers" --> 1000+ results
+#### Almost all of them are about data structures, or other unrelated concepts like "ACPI containers"
+#### There are some references to "our" containers
+##### but only in the documentation
