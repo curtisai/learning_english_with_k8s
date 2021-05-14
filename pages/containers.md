@@ -48,6 +48,7 @@ Chroot provides the ability for a process to start with a different root directo
 ### By default, containers have no limit on the memory. To inspect, `docker stats <container_name/_id>`
 ### By writing content to the cgroup files, you can modify the resource config for the container.
 #### eg. `echo 1024 > /sys/fs/cgroup/memory/docker/$DBID/memory.limit_in_bytes`
+##
 ## **Seccomp, AppArmor and Capabilities**
 ### Each of these security features have different purposes. They all function to reduce the damage that a process can cause once it has been compromised.
 ### [**Seccomp**](https://www.kernel.org/doc/Documentation/prctl/seccomp_filter.txt) is a Linux feature that allows a userspace program to set up syscall filters.
