@@ -14,4 +14,13 @@ title: Notes
 ##### can install packages
 ##### can run services
 ##### can mess up routing, iptables ...
-###
+### Low level approach: chroot on steriods
+#### It's not quite like a VM:
+##### uses the host kernel
+##### can't boot a different OS
+##### can't have its own modules
+##### doesn't need init as PID 1
+##### doesn't need syslogd, cron ...
+#### It's just a normal processes on the host machine
+##### contrast with VMs witch are opaque
+#####
