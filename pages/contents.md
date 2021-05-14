@@ -5,6 +5,7 @@
 ##### [[Images]]
 ### [[Grouping]]
 #### [[May 2nd, 2021]]
+[[Notes]]
 ### [[Commands I typed]]
 ### [[Reading List]]
 ## [[Useful Links]]
