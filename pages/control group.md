@@ -32,4 +32,5 @@ title: Control Group
 ####
 ### **Relationships Between Subsystems, Hierarchies, Control Groups and Tasks**
 #### System processes are called tasks in cgroup terminology.
-####
+#### There are rules governing the relationships between subsystems, hierarchies and tasks:
+##### **Rule 1** A single hierarchy can have one or more subsystem attached to it.
