@@ -20,4 +20,5 @@ title: Control Group
 ##### **blkio** - this subsystem sets limits on input/output access to and from block devices such as physical drives (disk, solid state, or USB).
 ##### **cpu** - this subsystem uses the scheduler to provide cgroup tasks access to the CPU
 ##### **cpuacct** - this subsystem generates automatic reports on CPU resources used by tasks in a cgroup.
+##### **cpuset** - this subsystem assigns individual CPUs (on a multicore system) and memory nodes to tasks in a cgroup
 #####
