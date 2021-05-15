@@ -17,5 +17,6 @@ title: Control Group
 #### The fundamental difference is that many different hierarchies of cgroups can exist simultaneously on a system. If the Linux process model is a single tree of processes, then the cgroup model is one or more separate, unconnected trees of tasks (i.e. processes).
 #### Multiple separate hierarchies of cgroups are necessary because each hierarchy is attached to *one or more subsystems* . A subsystem represents a single resource, such as CPU time or memory.
 #### **Available Subsystems in RedHat**
-##### **blkio** - this subsystem sets limits on input/output access to and from block devices such as physical drives (disk, solid state, or USB)
+##### **blkio** - this subsystem sets limits on input/output access to and from block devices such as physical drives (disk, solid state, or USB).
+##### **cpu** - this subsystem uses the scheduler to provide cgroup tasks access to the CPU
 #####
