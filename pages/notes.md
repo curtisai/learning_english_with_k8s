@@ -43,4 +43,4 @@ title: Notes
 ##### Sharing the same resources
 ######
 #####
-## Even if you are not using containers on your machines, you are still in containers. Your whole
+## Even if you are not using containers on your machines, you are still in containers. Your whole machine is in a container, but with no limits.
