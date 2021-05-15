@@ -34,4 +34,4 @@ title: Control Group
 #### System processes are called tasks in cgroup terminology.
 #### There are rules governing the relationships between subsystems, hierarchies and tasks:
 ##### **Rule 1** A single hierarchy can have one or more subsystem attached to it. ![2021_05_15_image.png](https://cdn.logseq.com/%2Fa9681ad6-bdcb-48f5-9267-58877609cc6b79fa6ddf-67fc-4952-a312-1be14a6086e92021_05_15_image.png?Expires=4774682541&Signature=TWDRH~P8z7U~ovN1ojTKJ-RRnXwNY2W0J~qmYp2FKM1CR-3RMGm8QOuzYzyGRnfGLw1qUdZgEYVeLXkF98ydVbEY6yFwzLLvUgDQz6tw6GdEuilWOZjC2~F4WSlEW5Y3sbM7IUZ5ipHaHGBzUBeFrLeUHN3J6uCTrU9I4UvQ7QJAlyNnif7u9hmd0HUORBMWBvbZ5iVhqP5gJKN71YvANMD3YB28WjAK4y-8j7YWhb~NeZnqTG0Zp40Z5jtQrlH5uqlmCl5s~AK3MDwX6cewmJGRu36WptHJq7p9G2TFjtw~LmWiWoftC-NgnJkGX0V7EGEonMXs7UZdgrBiIs08FQ__&Key-Pair-Id=APKAJE5CCD6X7MP6PTEA)
-#####
+##### **Rule 2** Any single subsystem (such as **cpu**) cannot be attached to more than one hierarchy if one of those hierarchies has
