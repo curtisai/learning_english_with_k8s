@@ -37,8 +37,10 @@ title: Notes
 ##### The trees for e.g. memory and CPU can be different
 #### Each process is in a node in each hierarchy
 ##### Think of each hierarchy as a different dimension or axis
-####
-##### Hierarchies are independent
+#### Each hierarchy starts with 1 node (the root)
+#### Initially, all processes start at the root node
+#### Each node = group of processes
+##### Sharing the same resources
 ######
 #####
 #####
