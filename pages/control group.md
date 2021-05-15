@@ -31,4 +31,5 @@ title: Control Group
 ### **NOTE** You may come across the term **resource controller** or simply **controller** in cgroup literature such as the man pages or kernel documentation. Bothe of these terms are synonymous with *subsystem* and arise from the fact that a subsystem typically schedules a resource or applies a limit to the cgroups in the hierarchy it is attached to.
 ####
 ### **Relationships Between Subsystems, Hierarchies, Control Groups and Tasks**
+#### System processes are called tasks in cgroup terminology.
 ####
