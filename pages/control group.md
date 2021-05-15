@@ -41,4 +41,4 @@ title: Control Group
 #### Because a task can belong to only a single cgroup in any one hierarchy, there is only one way that a task can be limited or affected by any single subsystem.
 #### You can group several subsystems together so that they affect all tasks in a single hierarchy. Because cgroups in that hierarchy have different parameters set, those tasks will be affected differently.
 #### It may sometimes be necessary to *refactor* a hierarchy. Any example would be removing a subsystem from a hierarchy that has several subsystems attached, and attaching it to a new, separate hierarchy.
-####
+#### Conversely, if the need for splitting subsystems among separate hierarchies is reduced,
