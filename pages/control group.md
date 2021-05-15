@@ -28,5 +28,5 @@ title: Control Group
 ##### **net_prio** - this subsystem provides a way to dynamically set the priority of network traffic per network interface.
 ##### **ns** - the *namespace* subsystem
 ##### **perf_event** - this subsystem identifies cgroup membership of tasks and can be used for performance analysis.
-### **NOTE** You may come across the term **resource controller** or simply **
+### **NOTE** You may come across the term **resource controller** or simply **controller** in cgroup literature such as the man pages or kernel documentation. Bothe of these terms are synonymous with *subsystem* and arise from the fact that a subsystem typically schedules a resource or applies a limit to the cgroups in the hierarchy it is attached to.
 ###
