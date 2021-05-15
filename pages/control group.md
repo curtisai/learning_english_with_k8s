@@ -42,4 +42,4 @@ title: Control Group
 #### You can group several subsystems together so that they affect all tasks in a single hierarchy. Because cgroups in that hierarchy have different parameters set, those tasks will be affected differently.
 #### It may sometimes be necessary to *refactor* a hierarchy. Any example would be removing a subsystem from a hierarchy that has several subsystems attached, and attaching it to a new, separate hierarchy.
 #### Conversely, if the need for splitting subsystems among separate hierarchies is reduced, you can remove a hierarchy and attach its subsystems to an existing one.
-####
+#### The design allows for simple cgroup usage, such as setting a few parameters for specific
