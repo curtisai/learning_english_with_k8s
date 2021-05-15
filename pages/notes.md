@@ -34,5 +34,7 @@ title: Notes
 #### Each subsystem has a hierarchy (tree)
 ##### separate hierarchies for CPU, memory, block I\/O
 #####
+##### Hierarchies are independent
+######
 #####
 #####
