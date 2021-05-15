@@ -43,4 +43,4 @@ title: Notes
 ##### Sharing the same resources
 ######
 #####
-## Even if you are not using containers on your machines, you are still in containers. Your whole machine is in a container, but with no limits.
+## Even if you are not using containers on your machines, you are still in containers. Your whole machine is in a container, but with no limits. If you want to get extra performance by not using containers, you cannot.
