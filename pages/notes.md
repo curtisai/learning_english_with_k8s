@@ -33,7 +33,7 @@ title: Notes
 ### cgroup generalities
 #### Each subsystem has a hierarchy (tree)
 ##### separate hierarchies for CPU, memory, block I\/O
-#####
+#### Hiereachies are
 ##### Hierarchies are independent
 ######
 #####
