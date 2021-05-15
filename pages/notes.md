@@ -33,7 +33,11 @@ title: Notes
 ### cgroup generalities
 #### Each subsystem has a hierarchy (tree)
 ##### separate hierarchies for CPU, memory, block I\/O
-#### Hiereachies are
+#### Hierarchies are independent
+##### The trees for e.g. memory and CPU can be different
+#### Each process is in a node in each hierarchy
+##### Think of each hierarchy as a different dimension or axis
+####
 ##### Hierarchies are independent
 ######
 #####
