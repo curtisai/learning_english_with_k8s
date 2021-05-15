@@ -23,4 +23,5 @@ title: Control Group
 ##### **cpuset** - this subsystem assigns individual CPUs (on a multicore system) and memory nodes to tasks in a cgroup
 ##### **devices** - this subsystem allows or denies access to devices by tasks in a cgroup.
 ##### **freezer** - this subsystem suspends or resumes tasks in a cgroup.
-##### **memory** - this subsystem
+##### **memory** - this subsystem sets limits on memory use by tasks in a cgroup and generates automatic reports on memory resources used by those tasks.
+#####
