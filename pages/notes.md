@@ -48,4 +48,6 @@ title: Notes
 ### didn't find **cgconfig** command on CentOS
 ### but found **cgcreate**
 #### installed by:
-##### ``
+##### `sudo yum install libcgroup-tools`
+##### `sudo yum install libcgroup`
+#####
