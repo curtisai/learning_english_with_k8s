@@ -21,4 +21,6 @@ title: Control Group
 ##### **cpu** - this subsystem uses the scheduler to provide cgroup tasks access to the CPU
 ##### **cpuacct** - this subsystem generates automatic reports on CPU resources used by tasks in a cgroup.
 ##### **cpuset** - this subsystem assigns individual CPUs (on a multicore system) and memory nodes to tasks in a cgroup
-#####
+##### **devices** - this subsystem allows or denies access to devices by tasks in a cgroup.
+##### **freezer** - this subsystem suspends or resumes tasks in a cgroup.
+##### **memory** - this subsystem
