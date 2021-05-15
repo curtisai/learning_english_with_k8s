@@ -30,4 +30,13 @@ title: Notes
 #### Almost all of them are about data structures, or other unrelated concepts like "ACPI containers"
 #### There are some references to "our" containers
 ##### but only in the documentation.
-###
+### cgroup generalities
+#### Each subsystem has a hierarchy (tree)
+##### LATER separate hierarchies for CPU, memory, block I\\/O
+:PROPERTIES:
+:now: 1621051772924
+:later: 1621051790270
+:done: 1621051789204
+:END:
+#####
+#####
