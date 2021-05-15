@@ -43,4 +43,4 @@ title: Notes
 ##### Sharing the same resources
 ######
 #####
-##
+## Even if you are not using containers,
