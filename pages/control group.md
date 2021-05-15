@@ -16,4 +16,5 @@ title: Control Group
 ##### child cgroups inherit certain attributes from their parent cgroup
 #### The fundamental difference is that many different hierarchies of cgroups can exist simultaneously on a system. If the Linux process model is a single tree of processes, then the cgroup model is one or more separate, unconnected trees of tasks (i.e. processes).
 #### Multiple separate hierarchies of cgroups are necessary because each hierarchy is attached to *one or more subsystems* . A subsystem represents a single resource, such as CPU time or memory.
-####
+#### **Available Subsystems in RedHat**
+#####
