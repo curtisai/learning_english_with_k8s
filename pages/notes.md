@@ -32,11 +32,7 @@ title: Notes
 ##### but only in the documentation.
 ### cgroup generalities
 #### Each subsystem has a hierarchy (tree)
-##### LATER separate hierarchies for CPU, memory, block I\\/O
-:PROPERTIES:
-:now: 1621051772924
-:later: 1621051790270
-:done: 1621051789204
-:END:
+##### separate hierarchies for CPU, memory, block I\/O
+#####
 #####
 #####
