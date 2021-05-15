@@ -7,4 +7,7 @@ title: Control Group
 ## **How Control Groups are Organized**
 ### Cgroups are organized hierarchically, like processes, and child cgroups inherit some of the attributes of their parents. However, there are difference between the two.
 ### **The Linux Process Model**
-#### All processes on a Linux system are child processes of a common parent: the **init** process, which is executed by the kernel at boot time and starts other
+#### All processes on a Linux system are child processes of a common parent: the **init** process, which is executed by the kernel at boot time and starts other processes (which may in turn start child processes of their own).
+#### Because all processes descend from a single parent, the Linux process model is a single hierarchy, or tree.
+#### Additionally, every Linux process except **init** inherits the environment (such as the *PATH* variable) and certain other attributes (such as open file descriptors) of its parent process.
+####
