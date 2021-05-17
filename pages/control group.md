@@ -58,4 +58,6 @@ title: Control Group
 ### Use **cgset** to set parameters.
 ### Use **cgclassify** to move a process to a cgroup.
 ### Use **cgexec** to start a process in a cgroup.
+### To find the cgroup to witch a process belongs, ` ps -O cgroup`
+### Or if you know the *PID*, `cat /proc/PID/cgroup`
 ###
