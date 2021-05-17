@@ -52,6 +52,6 @@ title: Control Group
 ### `lssubsys -am` List information about given controller(s)
 ### To remove a hierarchy, ensure that all child cgroups are removed before you **unmount** the hierarchy,
 ### Or use the **cgclear** to deactivate a hierarchy even when it's not empty.
-###
+### The **only way** to remove a task from a cgroup is to move it to a different cgroup.
 ### Use the **cgcreate** command to create cgroups
 ###
