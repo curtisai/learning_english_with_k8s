@@ -49,4 +49,4 @@ title: Control Group
 ### The **cgconfig** service installed with the libcgroup package provides a convenient way to create hierarchies. Attach subsystems to hierarchies, and manage cgroups within those hierarchies.
 ### The default **/etc/cgconfig.conf** files. You need to restart **cgconfig** if want to applied the changes in the config.
 ### The default **/etc/config.d/** directory
-### Once the content in default
+### `lssubsys -am` shows **cpu
