@@ -56,4 +56,5 @@ title: Control Group
 ### Use the **cgcreate** command to create cgroups.
 ### Use **cgdelete** to remove cgroups
 ### Use **cgset** to set parameters.
+### Use **cgclassify** to move a process to a cgroup.
 ###
