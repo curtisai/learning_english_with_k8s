@@ -50,4 +50,4 @@ title: Control Group
 ### The default **/etc/cgconfig.conf** files. You need to restart **cgconfig** if want to applied the changes in the config.
 ### The default **/etc/config.d/** directory
 ### `lssubsys -am` List information about given controller(s)
-###
+### To remove a hierarchy, ensure that all child cgroups are removed.
