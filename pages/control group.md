@@ -57,4 +57,5 @@ title: Control Group
 ### Use **cgdelete** to remove cgroups
 ### Use **cgset** to set parameters.
 ### Use **cgclassify** to move a process to a cgroup.
+### Use **cgexec** to start a process in a cgroup.
 ###
