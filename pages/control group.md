@@ -55,4 +55,5 @@ title: Control Group
 ### The **only way** to remove a task from a cgroup is to move it to a different cgroup.
 ### Use the **cgcreate** command to create cgroups.
 ### Use **cgdelete** to remove cgroups
+### Use **cgset)) to set parameters.
 ###
