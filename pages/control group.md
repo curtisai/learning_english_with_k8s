@@ -46,4 +46,5 @@ title: Control Group
 #### The design also allows for highly specific configuration: each task (process) on a system could be a member of each hierarchy, each of which has a single attached subsystem. Such a configuration would give the system administrator absolute control over all parameters for every single task.
 ## **Using Control Groups**
 ### `yum install libcgroup`
+### The **cgconfig** service installed with the libcgroup package provides a convenient way to create hierarchies. Attach subsystems to hierarchies, and manage cgroups within those hierarchies.
 ###
