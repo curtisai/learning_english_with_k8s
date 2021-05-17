@@ -60,4 +60,4 @@ title: Control Group
 ### Use **cgexec** to start a process in a cgroup.
 ### To find the cgroup to witch a process belongs, ` ps -O cgroup`
 ### Or if you know the *PID*, `cat /proc/PID/cgroup`
-### ``
+### **cgget** to display the parameters of spec
