@@ -66,7 +66,8 @@ title: Notes
 ######### use veth pairs (two virtual interfaces acting as a cross-over cable)
 ######### eth0 in container network namespace paired with vethxxx in host network namespace.
 ######### all the vethxxx are bridged together
-######### (Docker calls the bridge docker0)
+######### (Docker calls the bridge docker0 )
+######## But also: the magic --net container
 ##### mnt
 ##### uts
 ##### ipc
