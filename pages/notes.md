@@ -59,7 +59,10 @@ title: Notes
 ####### network interfaces (including lo)
 ####### routing tables
 ####### iptables rules
-####### stockets (ss, netstat)
+####### sockets (ss, netstat)
+###### You can move a network interface across netns
+####### `ip link set dev eth0 netns <PID>`
+#######
 ##### mnt
 ##### uts
 ##### ipc
