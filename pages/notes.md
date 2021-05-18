@@ -70,7 +70,8 @@ title: Notes
 ######## But also: the magic --net container
 ######### shared localhost
 ##### mnt
-######
+###### processes can have their own rootfs, conceptually close to chroot
+###### Processes can also have "private" mounts
 ##### uts
 ##### ipc
 ##### user
