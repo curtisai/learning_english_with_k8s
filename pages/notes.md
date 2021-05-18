@@ -190,6 +190,8 @@ title: Notes
 #### `ls containers/tupperware/` , you will see the newly created files
 #### `chroot containers/tuppoerware/ sh`
 #### `unshare --mount --uts --ipc --net --pid --fork bash` , seems nothing happened
+#### `hostname tupperware`
+#### `exec bash`
 ####
 ####
 ####
