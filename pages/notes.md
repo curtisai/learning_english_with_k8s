@@ -55,6 +55,7 @@ title: Notes
 ###### Namespace can be nested
 ###### A process ends up having multiple PIDs. one per namespace in which its nested.
 ##### net
+###### Processes within a given network namespace get their own private network stack
 ##### mnt
 ##### uts
 ##### ipc
