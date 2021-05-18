@@ -223,6 +223,9 @@ title: Notes
 ##### `ip link set c<CPID> netns <CPID>` to put one end into the container namespace
 ##### `ip link set h<CPID> master docker0 up` to connect the other end to the docker bridge
 #### Back to the container,
+##### `ip link set lo up`
+##### `ip link set c<CPID> name eth0 up`
+##### `ip addr add 172.17.42.3/16 dev eth0`
 #####
 ## Even if you are not using containers on your machines, you are still in containers. Your whole machine is in a container, but with no limits. If you want to get extra performance by not using containers, you cannot. Even if you don't use containers, you are in a container.
 ## **TAIL**
