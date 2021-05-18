@@ -217,11 +217,12 @@ title: Notes
 #### Now, mounts are clean
 #### `ping 4.2.2.1` No network because we don't have network namespaces
 #### go back to the host, find the pid of our container `pidof unshare`
-#### We need to create a pair of network devices
+#### We need to create a pair of network devices on the host side
 ##### `ip link add name h<CPID> type veth peer name c<CPID>`
 ##### `ifconfig -a` to confirm the creation
 ##### `ip link set c<CPID> netns <CPID>` to put one end into the container namespace
 ##### `ip link set h<CPID> master docker0 up` to connect the other end to the docker bridge
+#### Back to the container,
 #####
 ## Even if you are not using containers on your machines, you are still in containers. Your whole machine is in a container, but with no limits. If you want to get extra performance by not using containers, you cannot. Even if you don't use containers, you are in a container.
 ## **TAIL**
