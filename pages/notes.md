@@ -183,7 +183,8 @@ title: Notes
 #### `btrfs subvol create images/alpine`
 #### `CID=$(docker run -d alpine true)`
 #### `echo $CID`
-#### `docker export $CID | tar -C images/alpine`
+#### `docker export $CID | tar -C images/alpine/ -xf-`
+#### `ls images/alpine/` to see the unpacked tarballs
 ####
 ## Even if you are not using containers on your machines, you are still in containers. Your whole machine is in a container, but with no limits. If you want to get extra performance by not using containers, you cannot. Even if you don't use containers, you are in a container.
 ## **TAIL**
