@@ -195,7 +195,7 @@ title: Notes
 #### Now you are in your tupperware container, but not a completed container, we only have our own namespaces
 #### from now, you should only see your own processes`ps`, but the pid is not pid 1
 #### because you are still in the `/proc` of the system, and you still have the view of the system
-####
+#### So, you are seeing the system view from inside of your namespace
 ####
 ## Even if you are not using containers on your machines, you are still in containers. Your whole machine is in a container, but with no limits. If you want to get extra performance by not using containers, you cannot. Even if you don't use containers, you are in a container.
 ## **TAIL**
