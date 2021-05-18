@@ -94,7 +94,7 @@ title: Notes
 ##### Security improvement
 #### Each process is in one namespace of each type
 ### **Namespace manipulation**
-#### Namespaces are created with the `clone()` syscall
+#### Namespaces are created with the `clone()` syscall with extra flags
 #### Namespaces are materialized by pseudo-files
 ##### `/proc/<pid>/ns`
 #### When the last process of a namespace exits, it is destroyed.
