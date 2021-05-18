@@ -47,6 +47,14 @@ title: Notes
 #### Cgroup = limits how much you can use
 #### namespaces = limits what you can see
 #### On top of that, you can't use/affect what you can't see
+#### Multiple namespaces:
+##### pid
+##### net
+##### mnt
+##### uts
+##### ipc
+##### user
+#### Each process is in one namespace of each type
 ####
 ## Even if you are not using containers on your machines, you are still in containers. Your whole machine is in a container, but with no limits. If you want to get extra performance by not using containers, you cannot. Even if you don't use containers, you are in a container.
 ## **TAIL**
