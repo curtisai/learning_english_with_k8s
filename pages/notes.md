@@ -212,6 +212,7 @@ title: Notes
 #### `mount` will show you all the mounts from the host system
 #### to cleanup, `umount -a`
 #### remount the proc `mount -t proc non /proc`
+#### now the `mount` command will list container mounts
 ####
 ####
 ## Even if you are not using containers on your machines, you are still in containers. Your whole machine is in a container, but with no limits. If you want to get extra performance by not using containers, you cannot. Even if you don't use containers, you are in a container.
