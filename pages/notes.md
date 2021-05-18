@@ -192,7 +192,7 @@ title: Notes
 #### `unshare --mount --uts --ipc --net --pid --fork bash` , seems nothing happened
 #### `hostname tupperware`
 #### `exec bash`
-#### Now you are in your tupperware container
+#### Now you are in your tupperware container, but not a completed container, we only have our own namespaces
 #### from now, you should only see your own processes`ps`
 ####
 ####
