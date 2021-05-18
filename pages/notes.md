@@ -181,7 +181,8 @@ title: Notes
 #### `mount --make-rprivate /` to prevent my container file system bleed out
 #### `mkdir -p images containers` to build directories for both images and containers
 #### `btrfs subvol create images/alpine`
-####
+#### `CID=$(docker run -d alpine true)`
+#### `echo $CID`
 ## Even if you are not using containers on your machines, you are still in containers. Your whole machine is in a container, but with no limits. If you want to get extra performance by not using containers, you cannot. Even if you don't use containers, you are in a container.
 ## **TAIL**
 ### didn't find **cgconfig** command on CentOS
