@@ -42,7 +42,12 @@ title: Notes
 #### Each node = group of processes
 ##### Sharing the same resources
 ######
-#####
+### **Namespaces**
+#### Provide processes with their own system view
+#### Cgroup = limits how much you can use
+#### namespaces = limits what you can see
+#### On top of that, you can't use/affect what you can't see
+####
 ## Even if you are not using containers on your machines, you are still in containers. Your whole machine is in a container, but with no limits. If you want to get extra performance by not using containers, you cannot. Even if you don't use containers, you are in a container.
 ## **TAIL**
 ### didn't find **cgconfig** command on CentOS
