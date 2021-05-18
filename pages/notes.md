@@ -55,7 +55,11 @@ title: Notes
 ###### Namespace can be nested
 ###### A process ends up having multiple PIDs. one per namespace in which its nested.
 ##### net
-###### Processes within a given network namespace get their own private network stack
+###### Processes within a given network namespace get their own private network stack, including:
+####### network interfaces (including lo)
+####### routing tables
+####### iptables rules
+####### stockets (ss, netstat)
 ##### mnt
 ##### uts
 ##### ipc
