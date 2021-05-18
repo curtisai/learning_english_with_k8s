@@ -62,7 +62,9 @@ title: Notes
 ####### sockets (ss, netstat)
 ###### You can move a network interface across netns
 ####### `ip link set dev eth0 netns <PID>`
-#######
+######## typeical use-case:
+######### use veth pairs (two virtual interfaces acting as a cross-over cable)
+#########
 ##### mnt
 ##### uts
 ##### ipc
