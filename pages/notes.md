@@ -53,7 +53,7 @@ title: Notes
 ###### Each PID namespace has its own numbering. starting at 1
 ###### If PID 1 goes away, whole namespace is killed
 ###### Namespace can be nested
-######
+###### A process ends up having multiple PIDs. one per namespace in which its nested.
 ##### net
 ##### mnt
 ##### uts
