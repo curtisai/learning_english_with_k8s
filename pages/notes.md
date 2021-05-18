@@ -97,8 +97,11 @@ title: Notes
 #### Namespaces are created with the `clone()` syscall
 #### Namespaces are materialized by pseudo-files
 ##### `/proc/<pid>/ns`
-###### but can be preserved by bind-mounting the pseudo-file
-##### Its
+#### When the last process of a namespace exits, it is destroyed.
+##### but can be preserved by bind-mounting the pseudo-file
+#### It's possible to "enter" a namespace with `setns()`
+##### exposed by the nsenter wrappter in util-linux
+#####
 ## Even if you are not using containers on your machines, you are still in containers. Your whole machine is in a container, but with no limits. If you want to get extra performance by not using containers, you cannot. Even if you don't use containers, you are in a container.
 ## **TAIL**
 ### didn't find **cgconfig** command on CentOS
