@@ -199,6 +199,8 @@ title: Notes
 #### `pidof unshare` to pick the `unshare` pid, and `kill <PID>` will tell you no such pid
 #### `mount -t proc none /proc`
 #### Now you can see your own processes.
+#### `umount /proc`
+####
 ## Even if you are not using containers on your machines, you are still in containers. Your whole machine is in a container, but with no limits. If you want to get extra performance by not using containers, you cannot. Even if you don't use containers, you are in a container.
 ## **TAIL**
 ### didn't find **cgconfig** command on CentOS
