@@ -69,8 +69,8 @@ title: Notes
 ######### (Docker calls the bridge docker0 )
 ######## But also: the magic --net container
 ######### shared localhost
-######
 ##### mnt
+######
 ##### uts
 ##### ipc
 ##### user
