@@ -64,7 +64,9 @@ title: Notes
 ####### `ip link set dev eth0 netns <PID>`
 ######## typeical use-case:
 ######### use veth pairs (two virtual interfaces acting as a cross-over cable)
-#########
+######### eth0 in container network namespace paired with vethxxx in host network namespace.
+######### all the vethxxx are bridged together
+######### (Docker calls the bridge docker0)
 ##### mnt
 ##### uts
 ##### ipc
