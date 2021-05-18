@@ -77,6 +77,7 @@ title: Notes
 ####### NFS auto-mounts
 ###### Mounts can be totally private, or shared
 ###### No easy way to pass along a mount from a namespace to another
+######
 ##### uts
 ##### ipc
 ##### user
