@@ -80,6 +80,11 @@ title: Notes
 ##### uts
 ###### To allow the container has its own hostname
 ##### ipc
+###### Allows a process (or group of processes) to have own:
+####### IPC semaphores
+####### IPC message queues
+####### IPC shared memory
+###### ... without risk of conflict with other instances
 ##### user
 #### Each process is in one namespace of each type
 ####
