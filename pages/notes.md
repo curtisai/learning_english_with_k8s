@@ -77,8 +77,8 @@ title: Notes
 ####### NFS auto-mounts
 ###### Mounts can be totally private, or shared
 ###### No easy way to pass along a mount from a namespace to another
-######
 ##### uts
+###### To allow the container has its own hostname
 ##### ipc
 ##### user
 #### Each process is in one namespace of each type
