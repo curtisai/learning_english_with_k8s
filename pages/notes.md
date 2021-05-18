@@ -98,7 +98,6 @@ title: Notes
 #### Namespaces are materialized by pseudo-files
 ##### `/proc/<pid>/ns`
 ###### but can be preserved by bind-mounting the pseudo-file
-##### When the last process of a namespace exits, it is destroyed.
 ##### Its
 ## Even if you are not using containers on your machines, you are still in containers. Your whole machine is in a container, but with no limits. If you want to get extra performance by not using containers, you cannot. Even if you don't use containers, you are in a container.
 ## **TAIL**
