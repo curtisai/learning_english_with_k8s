@@ -228,7 +228,12 @@ title: Notes
 ##### `ip addr add 172.17.42.3/16 dev eth0`
 ##### `ip route add default via 172.17.42.1`
 ##### now ping
-####
+#### One more thing,
+##### the basic alpine doesn't have bash, only basic sh
+##### but we are using bash all these time
+##### even in our container.
+##### to set the last thread loose, `exec chroot / sh`
+#####
 ## Even if you are not using containers on your machines, you are still in containers. Your whole machine is in a container, but with no limits. If you want to get extra performance by not using containers, you cannot. Even if you don't use containers, you are in a container.
 ## **TAIL**
 ### didn't find **cgconfig** command on CentOS
