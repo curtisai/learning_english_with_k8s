@@ -72,6 +72,11 @@ title: Notes
 ##### mnt
 ###### processes can have their own rootfs, conceptually close to chroot
 ###### Processes can also have "private" mounts
+####### `/tmp` (scoped per user, per service)
+####### masking of `/proc`, `/sys`
+####### NFS auto-mounts
+###### Mounts can be totally private, or shared
+###### No easy way to pass along a mount from a namespace to another
 ##### uts
 ##### ipc
 ##### user
