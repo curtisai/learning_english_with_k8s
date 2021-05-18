@@ -136,7 +136,10 @@ title: Notes
 ##### Requires significant amount of elbow grease
 ###### easy for sysadmins/ops, hard for devs
 #### systemd-nspawn
-#####
+##### From its manpage:
+###### For debugging, testing and building
+###### Similar to chroot, but more powerful
+###### Implements the Container Interface
 ## Even if you are not using containers on your machines, you are still in containers. Your whole machine is in a container, but with no limits. If you want to get extra performance by not using containers, you cannot. Even if you don't use containers, you are in a container.
 ## **TAIL**
 ### didn't find **cgconfig** command on CentOS
