@@ -68,6 +68,8 @@ title: Notes
 ######### all the vethxxx are bridged together
 ######### (Docker calls the bridge docker0 )
 ######## But also: the magic --net container
+######### shared localhost
+######
 ##### mnt
 ##### uts
 ##### ipc
