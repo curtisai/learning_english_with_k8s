@@ -217,7 +217,8 @@ title: Notes
 #### Now, mounts are clean
 #### `ping 4.2.2.1` No network because we don't have network namespaces
 #### go back to the host, find the pid of our container `pidof unshare`
-####
+#### We need to create a pair of network devices
+#####
 ## Even if you are not using containers on your machines, you are still in containers. Your whole machine is in a container, but with no limits. If you want to get extra performance by not using containers, you cannot. Even if you don't use containers, you are in a container.
 ## **TAIL**
 ### didn't find **cgconfig** command on CentOS
