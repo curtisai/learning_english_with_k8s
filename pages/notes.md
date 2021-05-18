@@ -98,7 +98,7 @@ title: Notes
 #### Namespaces are materialized by pseudo-files
 ##### `/proc/<pid>/ns`
 #### When the last process of a namespace exits, it is destroyed.
-##### but can be preserved by bind-mounting the pseudo-file
+##### but can be preserved by **bind-mounting** the pseudo-file
 #### It's possible to "enter" a namespace with `setns()`
 ##### exposed by the nsenter wrappter in util-linux
 #####
