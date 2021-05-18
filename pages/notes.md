@@ -49,6 +49,11 @@ title: Notes
 #### On top of that, you can't use/affect what you can't see
 #### Multiple namespaces:
 ##### pid
+###### Processes within a PID namespace only see processes in the same PID namespace
+###### Each PID namespace has its own numbering. starting at 1
+###### If PID 1 goes away, whole namespace is killed
+###### Namespace can be nested
+######
 ##### net
 ##### mnt
 ##### uts
